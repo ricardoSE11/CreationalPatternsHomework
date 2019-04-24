@@ -1,0 +1,98 @@
+{
+	"weapons" :
+	[
+
+		{
+			"name": "basicSword",
+			"movementMethod": "TERRESTRIAL",
+			"sprites": ["basicSword.png"],
+			"range": 1.0,
+			"damage": 1.0,
+			"areaOfEffect":[1.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ],
+			"canBeUsedBy":["KNIGHT"]
+		},
+		{
+
+			"name": "bigSword",
+			"movementMethod": "TERRESTRIAL",
+			"sprites": ["bigSword.png"],
+			"range": 1.0,
+			"damage": 2.0,
+			"areaOfEffect":[1.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ],
+			"canBeUsedBy":["KNIGHT"]
+		},
+		{
+
+			"name": "megaSword",
+			"movementMethod": "TERRESTRIAL",
+			"sprites": ["megaSword.png"],
+			"range": 1.0,
+			"damage": 3.0,
+			"areaOfEffect":[1.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ],
+			"canBeUsedBy":["KNIGHT"]
+		},
+
+
+		{
+
+			"name": "basicBow",
+			"movementMethod": "TERRESTRIAL",
+			"sprites": ["basicBow.png"],
+			"range": 3.0,
+			"damage": 2.0,
+			"areaOfEffect":[1.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ],
+			"canBeUsedBy":["ARCHER"]
+		},
+		{
+
+			"name": "bigBow",
+			"movementMethod": "TERRESTRIAL",
+			"sprites": ["bigBow.png"],
+			"range": 3.0,
+			"damage": 3.0,
+			"areaOfEffect":[1.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ],
+			"canBeUsedBy":["ARCHER"]
+		},
+		{
+
+			"name": "megaBow",
+			"movementMethod": "TERRESTRIAL",
+			"sprites": ["megaBow.png"],
+			"range": 3.0,
+			"damage": 4.0,
+			"areaOfEffect":[1.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ],
+			"canBeUsedBy":["ARCHER"]
+		},
+
+
+		{
+			"name": "basicWand",
+			"movementMethod": "TERRESTRIAL",
+			"sprites": ["basicWand.png"],
+			"range": 3.0,
+			"damage": 3.0,
+			"areaOfEffect":[1.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ],
+			"canBeUsedBy":["WIZARD"]
+		},
+		{
+
+			"name": "bigWand",
+			"movementMethod": "TERRESTRIAL",
+			"sprites": ["bigWand.png"],
+			"range": 3.0,
+			"damage": 4.0,
+			"areaOfEffect":[1.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ],
+			"canBeUsedBy":["WIZARD"]
+		},
+		{
+
+			"name": "megaWand",
+			"movementMethod": "TERRESTRIAL",
+			"sprites": ["megaWand.png"],
+			"range": 3.0,
+			"damage": 5.0,
+			"areaOfEffect":[1.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 , 0.0 ],
+			"canBeUsedBy":["WIZARD"]
+		}
+	]
+}
